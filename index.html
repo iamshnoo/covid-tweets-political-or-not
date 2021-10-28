@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      A Study of Public Sentiment and Influence of Politics in COVID-19 Related
+      Tweets
+    </title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="text-center page-header">
+        A Study of Public Sentiment and Influence of Politics in COVID-19
+        Related Tweets
+      </h1>
+
+      <h3 class="text-center">
+        <a href="https://iamshnoo.github.io/">Anjishnu Mukherjee</a>,
+        <a href="https://www.linkedin.com/in/souparno-bhattacharyya-2b034a154/"
+          >Souparno Bhattacharyya</a
+        >,
+        <a href="https://www.linkedin.com/in/kinjal-percy-ray/">Kinjal Ray</a>,
+        <a href="https://www.linkedin.com/in/balraj-gupta-b93a71178/"
+          >Balraj Gupta</a
+        >,
+        <a href="https://scholar.google.com/citations?user=oaqj05UAAAAJ&hl=en"
+          >Asit Kumar Das</a
+        >
+      </h3>
+
+      <h4 class="text-center">
+        Indian Institute of Engineering Science and Technology (IIEST), Shibpur
+      </h4>
+
+      <h2 class="text-center col-md-12">
+        <a href="https://link.springer.com/chapter/10.1007/978-981-16-2543-5_56"
+          >Computational Intelligence in Pattern Recognition 2021</a
+        >
+      </h2>
+
+      <h2>Abstract</h2>
+
+      <p>
+        Our paper is driven by the hypothesis that conversations on social media
+        usually have a political motive behind them. While this may be helpful
+        for conversations about politics, sometimes it affects conversations in
+        other topics, like public health for example. Due to the spread of
+        Covid-19, many people were sharing their opinions online on how to stay
+        safe against the virus and we wanted to verify if these opinions were
+        actually politically motivated rather than being just good-natured
+        advice.
+      </p>
+
+      <p>
+        We first extract data from Twitter and perform topic modelling to verify
+        that politics and public health are indeed 2 major topics of
+        conversation on social media. Then we compare the performance of some of
+        the latest unsupervised classifiers for the task of detecting whether a
+        tweet is medically relevant or politically motivated. To do this we
+        manually annotate a subset of the data we extracted and check if the
+        label predicted by the unsupervised classifier matches our annotations.
+      </p>
+
+      <img
+        src="images/results.png"
+        width="450"
+        class="figure-img img-responsive center-block"
+        alt="The table from our paper showing comparison of results from different
+      models."
+      />
+
+      <h2>Video</h2>
+      <p>This is a recording of our presentation at the conference.</p>
+      <div align="center" class="embed-responsive embed-responsive-16by9">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube-nocookie.com/embed/gUywQadBKYI"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+
+      <h2>Supplementary</h2>
+
+      <p>
+        The final manuscript of our paper is available
+        <a href="final_manuscript.pdf">here.</a>
+      </p>
+
+      <p>
+        Our paper won a
+        <a href="images/best_paper_ts4.png"
+          >best paper award at the conference.</a
+        >
+      </p>
+
+      <p>
+        All the code for our paper can be found
+        <a href="COVID_Tweet_politics_or_not.zip">in this zip file.</a>
+      </p>
+
+      <h2>Citation</h2>
+
+      <p>Please cite our paper if it is helpful to your work:</p>
+
+      <pre>
+@InProceedings{10.1007/978-981-16-2543-5_56,
+author="Mukherjee, Anjishnu
+and Bhattacharyya, Souparno
+and Ray, Kinjal
+and Gupta, Balraj
+and Das, Asit Kumar",
+editor="Das, Asit Kumar
+and Nayak, Janmenjoy
+and Naik, Bighnaraj
+and Dutta, Soumi
+and Pelusi, Danilo",
+title="A Study of Public Sentiment and Influence of Politics in COVID-19 Related Tweets",
+booktitle="Computational Intelligence in Pattern Recognition ",
+year="2022",
+publisher="Springer Singapore",
+address="Singapore",
+pages="655--665",
+abstract="Mukherjee, AnjishnuBhattacharyya, SouparnoRay, KinjalGupta, BalrajDas, Asit KumarAn increased usage of social media was observed as the Covid-19 pandemic progressed. We extract tweets relevant to the pandemic from publicly available Twitter data and analyse them to understand the change in public emotions over the year along with a detailed analysis of the topics of discussion. We find public health and politics to be the two most dominant topics. Hence, we perform a study where we compare the performance of existing unsupervised classification methods for the task of detecting whether a tweet is medically relevant or politically motivated.",
+isbn="978-981-16-2543-5"
+}</pre>
+    </div>
+  </body>
+</html>
